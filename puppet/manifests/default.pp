@@ -1,4 +1,4 @@
-include puppet-nginx
+include puppetlabs-apache
 notify { 'my_message':
   message => hiera('my_message'),
 }
